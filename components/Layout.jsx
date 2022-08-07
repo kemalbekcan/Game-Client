@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
 import Navbar from "./shared/Navbar";
-import Footer from "./shared/Footer";
 
 function Layout({ children, title, desc, styleName }) {
   return (
@@ -14,7 +13,6 @@ function Layout({ children, title, desc, styleName }) {
       </Head>
       <Navbar />
       <main className={styleName}>{children}</main>
-      <Footer />
     </Fragment>
   );
 }
