@@ -35,13 +35,46 @@
 
 .rules {
   background-color: #707070;
+  height: 500px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 74px;
+}
+.rules .card {
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between !important;
+}
+.rules .card .rule-list {
+  width: 100%;
 }
 .rules .card .rule-list h1 {
   letter-spacing: 1.3px;
   color: yellow;
   text-align: center;
   text-decoration: underline;
+  font-size: 42px;
+}
+.rules .card .rule-list ul {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .rules .card .rule-list ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #FFFFFF;
+}
+.rules .card .rule-accept {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.rules .card .rule-accept p {
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.rules .card .rule-accept p span {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */

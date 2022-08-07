@@ -5,7 +5,7 @@ function Home() {
   return (
     <Fragment>
       <Layout title="Anasayfa" desc="Anasayfa" styleName="rules">
-        <div className="card">
+        <div className="flex card">
           <div className="rule-list">
             <h1>Kurallar</h1>
             <ul>
@@ -17,8 +17,13 @@ function Home() {
               <li>Konuyu doğru başlıkta açtığından emin ol</li>
             </ul>
           </div>
-          <div>
-            <p>Kuralları Kabul Ediyorum</p>
+          <div className="rule-accept">
+            <div className="flex">
+              <input type="checkbox" />
+              <p>
+                <span>Kuralları</span> Kabul Ediyorum
+              </p>
+            </div>
           </div>
         </div>
       </Layout>
