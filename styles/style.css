@@ -52,7 +52,7 @@
 }
 .rules .card .rule-list h1 {
   letter-spacing: 1.3px;
-  color: yellow;
+  color: #EFC862;
   text-align: center;
   text-decoration: underline;
   font-size: 42px;
@@ -76,5 +76,5 @@
   color: #FFFFFF;
 }
 .rules .card .rule-accept p span {
-  color: yellow;
+  color: #EFC862;
 }/*# sourceMappingURL=style.css.map */
