@@ -80,8 +80,8 @@
 }
 
 .login {
-  border: 1px solid red;
   width: 30%;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,7 +96,51 @@ input {
 }
 
 .primary-input {
-  border: 1px solid blue;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
+  padding: 12px 25px;
+  border-radius: 12px;
+}
+
+.primary-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #EFC862;
+}
+
+.register {
+  width: 30%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-button {
+  width: 50%;
+  height: 50px;
+}
+
+input {
+  display: block;
+}
+
+.primary-input {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 12px 25px;
+  border-radius: 12px;
+}
+
+.primary-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #EFC862;
 }/*# sourceMappingURL=style.css.map */
