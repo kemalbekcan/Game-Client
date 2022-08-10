@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import Head from "next/head";
 import Navbar from "./shared/Navbar";
 
@@ -17,11 +17,11 @@ function Layout({ children, title, desc, styleName }) {
   );
 }
 
-Layout.propTypes = {
-  title: PropTypes.string,
-  desc: PropTypes.desc,
-  children: PropTypes.node,
-  styleName: PropTypes.string,
-};
+// Layout.propTypes = {
+//   title: PropTypes.string,
+//   desc: PropTypes.desc,
+//   children: PropTypes.node,
+//   styleName: PropTypes.string,
+// };
 
 export default Layout;

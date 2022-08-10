@@ -81,14 +81,12 @@
 
 .login {
   width: 30%;
-  height: 400px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-}
-
-.sign-button {
-  width: 50%;
-  height: 50px;
+  background-color: rgba(112, 112, 112, 0.4);
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 input {
@@ -96,11 +94,13 @@ input {
 }
 
 .primary-input {
+  height: 32px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
   padding: 12px 25px;
   border-radius: 12px;
+  margin-bottom: 35px;
 }
 
 .primary-button {
@@ -110,6 +110,43 @@ input {
   padding: 12px 25px;
   border-radius: 25px;
   color: #EFC862;
+}
+
+.sign-button {
+  width: 50%;
+  height: 50px;
+  outline: none;
+  background-color: #EFC862;
+  border-top-right-radius: 20px;
+}
+
+.register-button {
+  width: 50%;
+  height: 50px;
+  color: #EFC862;
+  outline: none;
+  border-bottom: 1px solid #707070;
+  background-color: transparent;
+  border-top-left-radius: 20px;
+}
+
+.user-profile-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.password-forget {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.password-forget a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .register {
