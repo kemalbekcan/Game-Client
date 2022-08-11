@@ -3,6 +3,17 @@ const path = require("path");
 
 const nextConfig = {
   trailingSlash: true,
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
+    return {
+      '/': { page: '/' },
+      '/login': { page: '/login' },
+      '/register': { page: '/register' },
+      '/topics': { page: '/topics' },
+    }
+  },
   webpackDevMiddleware: config => {
     config.watchOptions = {
       poll: 1000,
